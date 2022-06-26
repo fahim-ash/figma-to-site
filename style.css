@@ -1,0 +1,103 @@
+*{
+    background-color: white;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --light-grey: #e0e0e0;
+    --dark-grey: #606060;
+    --red-bg: #da1e5d;
+}
+.root{
+    height: 1117px;
+    width: 1728px;
+    margin: 0px auto;
+}
+
+.root button{
+    background-color: #E0E0E0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 14px;
+    width: 157.27px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+        
+}
+.root button:focus{
+    background-color: #606060;
+    
+
+}
+.root button:active{
+    background-color: #606060;
+
+}
+.root button:hover{
+    background-color:  #606060;
+    
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 81px;
+    padding-bottom: 28px;
+    padding-left: 64px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 64px;
+}
+.card{
+    background-color: #DA1E5D;
+    width: 1600px;
+    height: 150px;
+    margin-bottom: 51px;
+    font-size: 30px;
+    border-radius: 14px;
+}
+
+.center{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #da1e5d;
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+
+.hover1:visited{
+    background-color:  #606060;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 14px;
+  
+}
+
+
+
